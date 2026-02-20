@@ -56,6 +56,7 @@ int main() {
         std::cin>>l;
         if (l >= 0 && l <= 20){
             rect2.setLength(l);
+            break;
         }
         else{
             std::cout<<"\nInvalid length. Enter length again."<<std::endl;
@@ -67,6 +68,7 @@ int main() {
         std::cin>>w;
         if (w >= 0 && w <= 20){
             rect2.setWidth(w);
+            break;
         }
         else{
             std::cout<<"\nInvalid length. Enter width again."<<std::endl;
