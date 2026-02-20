@@ -19,18 +19,10 @@ public:
     }
     // Setters
     void setLength(float l) {
-        if (l >= 0.0 && l <= 20.0) {
-            length = l;
-        } else {
-            length = 1.0;
-        }
+        length = l;
     }
     void setWidth(float w) {
-        if (w >= 0.0 && w <= 20.0) {
-            width = w;
-        } else {
-            width = 1.0;
-        }
+        width = w;
     }
     // Getters
     float getLength() {
